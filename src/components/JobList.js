@@ -70,7 +70,7 @@ const JobList = () => {
         </DialogContent>
       </Dialog>
       <Box mt={2} style={{ maxHeight: '600px', overflowY: 'auto' }}>
-        {jobs.length === 0 ? (
+        {jobs?.length === 0 ? (
           <Box
             p={2}
             display="flex"
@@ -92,7 +92,7 @@ const JobList = () => {
             </Typography>
           </Box>
         ) : (
-          jobs.map((job) => (
+          jobs?.map((job) => (
             <Box
               key={job.id}
               p={2}

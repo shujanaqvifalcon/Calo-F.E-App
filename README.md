@@ -29,7 +29,7 @@ Make sure you have the following installed:
 1. Clone the repository:
 
    ```bash
-   git clone git@github.com:shujanaqvifalcon/calo-F.E-Assessment.git
+   git clone git@github.com:shujanaqvifalcon/Calo-F.E-App.git
    ```
 
 2. Navigate to the project directory:
